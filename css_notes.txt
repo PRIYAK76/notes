@@ -1,17 +1,55 @@
-//inline css
+//css cascading style sheets
+external style sheet are stored in .css files
+
+//syntax
+selector, declaration has property and value
+
+//example 1.1
+p{
+    color:red;
+    text-align: center;
+}
+here color is the property and red is the property value
+
+//univrsal selector(*)
+this will affect allHTML element
+in the above example 1.1 * is used instead of p
+
+//grouping selector
+h1,h2,p{
+    color: red;
+}
 
 
+//for id element 
+#para{
+    color: red;
+}
 
-//margin
+//for class element
+<h1 class="one-class">The header</h1>
+<p class="one-class">The paragraph</p>
+.one-class{
+    color: red;
+}
+
+// three ways to insert css files
+*external*internal
+*inline
 
 
+//example of internal 
+defined within style element
+body{
+    color:blue;
+}
 
-//border
+//example of inline css
+inline styles are defined within style attribute of the same element
+<p style="color:blue;text-align:center;"></p>
 
 
-
-//text
-
-
-//transform
-
+//example of EXTERNAL
+<head>
+<link rel="stylesheet" href="mystyle.css">
+mystyle.css is the name of the css file to be added to html file
