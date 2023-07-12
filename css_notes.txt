@@ -53,3 +53,16 @@ inline styles are defined within style attribute of the same element
 <head>
 <link rel="stylesheet" href="mystyle.css">
 mystyle.css is the name of the css file to be added to html file
+
+//combinators
+adjacent sibling +
+h2+p{
+    color:red;
+    the p tag following h2 only will get red color 
+}
+general sibling tilde
+the p tag following h2 either direct or indirect get red color
+child >
+
+descendant 
+
