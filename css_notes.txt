@@ -70,3 +70,34 @@ descendant
 
 //specificity 
 it is about resolving conflicts that arise from css rules which target the same element
+
+
+//transitions and animations
+for tarnsition the element button is used here
+<button class ="btn">SUBMIT</button>
+
+.btn will stylethe button and then
+.btn:hover{
+    transform: translateY(-10px);
+}
+transition: transform 0.3s ease 0s;
+
+
+//animations 
+animations can be given to any heading or paragraphs
+@keyframes Slide {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+the class name of heading or paragaraph or anything can be given
+.heading{
+ animation: name duration timing-function delay iteration-count direction fill-mode;
+ timing function: ease-in,ease-out,ease-in-out and linear
+ animation direction: reverse ,forward ,normal, both
+ animation fill mode: forward (doesnot push the heading ),backward (will push the heading),both(starts from and ends at to)
+ none (nothing happens)
+}
