@@ -98,6 +98,33 @@ the class name of heading or paragaraph or anything can be given
  animation: name duration timing-function delay iteration-count direction fill-mode;
  timing function: ease-in,ease-out,ease-in-out and linear
  animation direction: reverse ,forward ,normal, both
- animation fill mode: forward (doesnot push the heading ),backward (will push the heading),both(starts from and ends at to)
+ animation fill mode: forward (doesnot push the heading ),backward (will push the heading),
+ both(starts from and ends at to)
  none (nothing happens)
 }
+
+//width
+will prevent fro stretching to the edge of the container
+element takes up specified width
+
+
+//max-width
+browser adds horizontal scroll bar to the page 
+this will improve the handling in small windows  or small devices
+
+//z-index
+when the elemets are positioned,they can also overlap other elemets
+z-index property will specify the stack order of the elemets to be displayed on the screen
+it can also be postitive and negative
+
+//overflow
+ this property is used when the content is big and not fixed into screen area
+visible --> not clipped the content renders beyond the element box
+hidden --> clipped overflow rest of the content hidden
+scroll --> x and y scrollbars are added to see the content
+auto --> only neccessary scrollbars are added
+
+//optacity
+this property specifies the transparancy of the image or element
+it takes value from 0.0 to -1.0
+transparancy can be set to hovered image
