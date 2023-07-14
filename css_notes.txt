@@ -61,7 +61,7 @@ h2+p{
     color:red;
     the p tag following h2 only will get red color 
 }
-general sibling tilde
+general sibling ~
 the p tag following h2 either direct or indirect get red color
 child >
 child combinator will do except for the nested element
@@ -128,3 +128,64 @@ auto --> only neccessary scrollbars are added
 this property specifies the transparancy of the image or element
 it takes value from 0.0 to -1.0
 transparancy can be set to hovered image
+
+//image sprites
+collection of images put into a single image
+saves bandwidth
+
+
+//attribute selector
+[attribute="value"]
+[attribute~="value"]
+[attribute|="value"]   - values
+[attribute^="value"]  to select element that starts with value
+[attribute$="value"]  to select element that ends with value
+[attribute*="value"]
+
+//forms
+<form>
+<label> name</label>
+<input type="text">
+</form>
+
+
+//UNITS
+css has different units for expressing length
+absolute length
+cm 
+mm
+in
+px*
+
+relative length
+em 
+
+//specificity
+if two or more rules point to same element then the one with highest priority wins by 
+highest specificity 
+specificity
+1.Inline style --> <h1 style="pink";>
+2. ID --> #id
+3.class,pseudo class,attribute selectors --> .test,:hover,[href]
+4. element h1,p
+
+specificity value
+p --> 1
+.test --> 10
+#id --> 100
+<p style=color:pink ;> --> 1000
+* (universal selector ) --> 0
+
+//!impoertant
+add more importance to a property / value
+it will override all previous styling of that element
+
+//calc function used to perform calcluation for the property value
+calc()
+min()
+max()
+#div{
+    width: min(50%,300px);
+    width: max(50%,300px);
+    width: calc(50%+300px); +-*/ can be used here
+}
