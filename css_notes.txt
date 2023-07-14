@@ -1,3 +1,5 @@
+                  CSS BASIC
+
 //css cascading style sheets
 external style sheet are stored in .css files
 
@@ -93,6 +95,7 @@ animations can be given to any heading or paragraphs
         transform: translateX(0);
     }
 }
+
 the class name of heading or paragaraph or anything can be given
 .heading{
  animation: name duration timing-function delay iteration-count direction fill-mode;
@@ -119,6 +122,7 @@ it can also be postitive and negative
 
 //overflow
  this property is used when the content is big and not fixed into screen area
+
 visible --> not clipped the content renders beyond the element box
 hidden --> clipped overflow rest of the content hidden
 scroll --> x and y scrollbars are added to see the content
@@ -164,12 +168,14 @@ em
 if two or more rules point to same element then the one with highest priority wins by 
 highest specificity 
 specificity
+
 1.Inline style --> <h1 style="pink";>
 2. ID --> #id
 3.class,pseudo class,attribute selectors --> .test,:hover,[href]
 4. element h1,p
 
 specificity value
+
 p --> 1
 .test --> 10
 #id --> 100
@@ -181,11 +187,18 @@ add more importance to a property / value
 it will override all previous styling of that element
 
 //calc function used to perform calcluation for the property value
+
 calc()
 min()
 max()
+
 #div{
     width: min(50%,300px);
     width: max(50%,300px);
     width: calc(50%+300px); +-*/ can be used here
 }
+
+----------------------------------------------------------------------------------------
+
+
+                      CSS ADVANCED
