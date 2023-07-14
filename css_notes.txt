@@ -75,10 +75,10 @@ it is about resolving conflicts that arise from css rules which target the same 
 
 
 //transitions and animations
-for tarnsition the element button is used here
+for transition the element button is used here
 <button class ="btn">SUBMIT</button>
 
-.btn will stylethe button and then
+.btn will style the button and then
 .btn:hover{
     transform: translateY(-10px);
 }
