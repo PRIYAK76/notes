@@ -197,6 +197,20 @@ max()
     width: calc(50%+300px); +-*/ can be used here
 }
 
+//position
+static:
+elements are static by default;
+not affected by top,right,left,bottom properties;
+
+relative:
+relative to normal position
+top,right,left,bottom will be affected by setting 
+
+fixed:
+will always stays in the same place even if the page gets scrolled 
+
+absolute:
+absolute positions can overlap elements removed from normal flow
 ----------------------------------------------------------------------------------------
 
 
@@ -303,3 +317,17 @@ grayscale(100%);
 //image reflection
 The box-reflect property is used to create an image reflection.
 values: below,left,right,above
+
+img {
+  -webkit-box-reflect: right 20px;
+}
+
+px describes the gap b/w the image and reflection
+
+//object-fit
+object-fit: cover
+scale-down
+fill
+container
+
+//css masking
