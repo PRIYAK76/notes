@@ -181,7 +181,7 @@ p --> 1
 <p style=color:pink ;> --> 1000
 * (universal selector ) --> 0
 
-//!impoertant
+//!important
 add more importance to a property / value
 it will override all previous styling of that element
 
@@ -211,6 +211,15 @@ will always stays in the same place even if the page gets scrolled
 
 absolute:
 absolute positions can overlap elements removed from normal flow
+
+//pseudo class
+a keyword added to a selector that specifies a special state 
+of the selected elements
+
+li:nth-child(1){
+    background-color: yellow;
+}
+
 ----------------------------------------------------------------------------------------
 
 
