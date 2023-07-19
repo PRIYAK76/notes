@@ -223,3 +223,28 @@ li:nth-child(1){
  
  //font shorthand property
 font: style variant weight size family               
+
+
+//UNITS
+
+pixels px 
+percentages %
+root em --> rem
+em --> em
+viewport height vh
+viewport width vw   
+
+absolute length
+ it ignores user settings
+
+ viewport length
+ it adjusts to current viewport
+ vh vw vmin vmax
+
+font-relative length
+adjusts to default font size
+rem em 
+position:fixed 10%
+this is viewport
+position:absolute --> ancestor content + padding
+position: relative or static content only
