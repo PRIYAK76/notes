@@ -1,0 +1,134 @@
+ CSS ADVANCED
+
+//rounded corners
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+border radius will define the round radius of the element
+
+
+
+//border images
+ property-name: border-image
+ set image to be used as a border around an element
+ note: we can also download element and give as a border 
+ border-image: url(border.png) 30 stretch;
+ border-image: url(border.png) 30 round;
+ both stretch and round will create different impressions around element
+
+
+ //multiple backgrounds setting
+property-name:background-image
+background-image: url(img_flwr.gif), url(paper.gif);
+
+using shorthand-property
+background : url(image.gif) center repeat, url(img.gif) bottom no repeat;
+
+background-clip:padding-box;
+or content-box;
+
+//colors
+css supports 140+color names,HEX values,RGB values,RGBA value,HSLand HSLA and opacity
+
+RGBA (red,blue,green,alpha) alpha for transparent and opaque 0-1
+HSL (hue,saturation 100%, lightness 100%)
+hue --> 0or 360 red(color wheeel)
+120 green
+240 blue
+
+//transparent keyword
+background-color:transparent
+
+//gradient
+is used to set between two or more colors
+-->linear (up/down/right/diagonally)
+-->radial (at center)
+-->conic(rotated at center)
+background-image:linear-gradient(red-yellow)
+syntax--> background-image: linear-gradient(direction,color1,color2,....)
+
+radial
+--> background-image: radial-gradient(size shape position,start color,....,end-color)
+
+//SHADOWS
+text shadow
+box shadow
+
+text-shadow: hor ver blur color;
+2px 2px 5px red;
+multiple shadows by giving comma
+
+box-shadow: 10px 10px 5px 12px lightblue;
+
+
+//2D transforms
+*translate()
+rotate()  --->degree
+scaleX()
+scaleY()
+scale()
+skewX()
+skewY()
+skew()
+matrix() --> scaleX(),skewX(),scaleY(),skewY(),translateX(),translateY()
+matrix method has six parameters
+
+//3D transforms
+rotateX()
+rotateY()
+rotateZ()
+
+
+//transition
+transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function --> ease,ease-in,ease-out,ease-in-out,linear
+
+//tooltip 
+it is used to display extra info when user moves over the element
+topleft right bottom
+can be displayed with arrow or without arrow
+
+//image filters
+grayscale(100%);
+
+//image reflection
+The box-reflect property is used to create an image reflection.
+values: below,left,right,above
+
+img {
+  -webkit-box-reflect: right 20px;
+}
+
+px describes the gap b/w the image and reflection
+
+//object-fit
+object-fit: cover
+scale-down
+fill
+container
+
+//css masking
+
+
+//flex box
+flexible box
+1D layout
+alternative for all css properties of display inline block
+either x axis or y axis 
+ 
+ //grid 
+ 2D layout
+ grid container  contains the element
+ grid items each items 
+ grid lines line seperating each items
+
+ grid track row selecting specific row
+ grid track column selecting specific column
+ grid area  specific area only 
