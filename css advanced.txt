@@ -151,3 +151,103 @@ style sheet to desktops, laptops, tablets, and mobile phones
     background-color: lightgreen;
   }
 }
+
+
+//HOW CSS IS PARSESD 
+cascading and specificity
+ the process of combining different stylesheets and resolving conflicts 
+between different CSS rules and declarations ,when more than one rule applies
+to a certain element
+
+
+//specificity
+!important 
+user author default browser
+
+
+//values in css
+
+//how CSS works
+load html --> parse HTML --> load CSS--> parse CSS --> CSS object model
+                | document object model
+
+
+
+box model
+content --> width height padding border margin
+
+total width= right border + r padding +specified width+ l padding +l border
+total height = top border + t padding + specified height + bottom padding + b border; 
+
+//border-box
+width and height are specified for whole border 
+--> in normal width  and height are specified within the content 
+
+//box types 
+inline 
+box level
+inline block
+
+//positioning 
+normal flow 
+floats
+absolute positioning
+
+//stacking contexts
+overlapping elemnts
+
+
+//BEM 
+block element modifier
+block --> standalone component
+elemnt--> no standalone meaning
+modifier--> diff versions of bloock or element
+
+.block{}
+.block__element{}
+.block__element--modifier{}
+
+//7-1 pattern
+7 different floders for partial SAss files 
+1 main sass file to import all other files into a compiled CSS stylesheets
+
+~ base/
+~components/
+layout/
+pages/
+themes/
+abstracts/
+vendors/
+
+
+
+//SASS 
+is a CSS preprocessor adds elegance to the basic language
+
+***features***
+variables
+nesting
+operators
+partials and imports
+mixins
+functions
+extends
+control directives
+
+background-color:darken($color-sec,15%);
+lighten
+
+
+//@mixins is used to reduce the code reuse
+@mixin slide($col){
+  text-color:fff;
+   font-color:$col;
+}
+@include slide($color-darken);
+
+
+//extends
+%btn-placeholder{
+  content;
+}
+@extend %btn-placeholder
