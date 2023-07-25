@@ -251,3 +251,26 @@ lighten
   content;
 }
 @extend %btn-placeholder
+
+
+//basic responsive design principle
+
+1.fluid layout
+vw or vh
+% instead of px
+use max-width instead of width
+
+2.responsive units
+rem instead of px
+
+3.flexible images
+use % for dimentions with max-width property
+
+4.media QUERY
+change at certain vW called breakpoints
+
+***layout typpes***
+ 
+float layout
+flexbox
+grid
