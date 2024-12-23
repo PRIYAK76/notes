@@ -96,6 +96,8 @@ it is used to display extra info when user moves over the element
 topleft right bottom
 can be displayed with arrow or without arrow
 
+
+
 //image filters
 grayscale(100%);
 
