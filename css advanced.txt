@@ -10,8 +10,6 @@
 }
 border radius will define the round radius of the element
 
-
-
 //border images
  property-name: border-image
  set image to be used as a border around an element
