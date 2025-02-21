@@ -2,7 +2,6 @@
 
 //css cascading style sheets
 external style sheet are stored in .css files
-
 //syntax
 selector, declaration has property and value
 //example 1.1
