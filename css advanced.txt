@@ -1,6 +1,5 @@
  CSS ADVANCED
 
-
 //rounded corners
 #rcorners2 {
   border-radius: 25px;
