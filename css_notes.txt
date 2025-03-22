@@ -1,4 +1,6 @@
                   CSS BASIC
+
+
 //css cascading style sheets
 external style sheet are stored in .css files
 //syntax
