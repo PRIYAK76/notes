@@ -5,6 +5,8 @@ external style sheet are stored in .css files
 selector, declaration has property and value
 //example 1.1
 
+
+
 p{
     color:red;
     text-align: center;
