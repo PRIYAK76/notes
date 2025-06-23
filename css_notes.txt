@@ -9,7 +9,6 @@ p{
     text-align: center;
 }
 here color is the property and red is the property value
-
 //univrsal selector(*)
 this will affect allHTML element
 in the above example 1.1 * is used instead of p
