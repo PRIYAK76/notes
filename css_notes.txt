@@ -24,6 +24,7 @@ h1,h2,p{
     color: red;
 }
 
+
 //for class element
 <h1 class="one-class">The header</h1>
 <p class="one-class">The paragraph</p>
